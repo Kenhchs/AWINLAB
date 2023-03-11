@@ -29,11 +29,12 @@ loop do
     currentNode = nextNode;
 ```
 ## 程式流程
-因為要有500個 iteration，有可能遇到的情況是找不到更好的 neighbor，虛擬碼不同的是此時會啟動 隨機重新啟動爬山([Random Restart Hill Climbing](https://en.wikibooks.org/wiki/Artificial_Intelligence/Search/Iterative_Improvement/Hill_Climbing#Random-Restart_Hill-Climbing))
+因為要有500個 iteration，有可能遇到的情況是找不到更好的 neighbor，與虛擬碼不同的是此時會啟動隨機重新啟動爬山([Random Restart Hill Climbing](https://en.wikibooks.org/wiki/Artificial_Intelligence/Search/Iterative_Improvement/Hill_Climbing#Random-Restart_Hill-Climbing))而不是回傳目前的點
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
 
 ## 函式介紹
 ### 讀檔
+讀取儲存```背包容量```、```物品重量```、```物品價值```的檔案，並且分別存入變數```capcity```、```weights```、```profits```
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L4-L17
 
 ### 初始解
