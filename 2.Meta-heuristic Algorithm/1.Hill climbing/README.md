@@ -8,6 +8,7 @@
   - [計算重量](#計算重量)
   - [初始變數設定](#初始變數設定)
   - [畫圖](#畫圖)
+- [成果](#成果)
 ## 程式流程
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
 
@@ -32,3 +33,6 @@ https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb
 
 ### 畫圖
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L110-L113
+
+## 成果
+<img src="https://github.com/Kenhchs/AWINLAB/blob/main/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/Hill%20climbing.png"/>
