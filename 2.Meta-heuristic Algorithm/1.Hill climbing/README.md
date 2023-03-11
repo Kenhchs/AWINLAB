@@ -13,7 +13,21 @@
 - [參考資料](#參考資料)
 
 ## 虛擬碼
-
+```c
+currentNode = startNode;
+loop do
+    L = NEIGHBORS(currentNode);
+    nextEval = -INF;
+    nextNode = NULL;
+    for all x in L 
+        if (EVAL(x) > nextEval)
+            nextNode = x;
+            nextEval = EVAL(x);
+    if nextEval <= EVAL(currentNode)
+        //Return current node since no better neighbors exist
+        return currentNode;
+    currentNode = nextNode;
+```
 ## 程式流程
 
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
