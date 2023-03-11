@@ -46,6 +46,10 @@ https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L33-L39
 
 ### 尋找鄰近點
+尋找順序如下
+1. 尋找可以放去的物品
+2. 在不超出背包重量的情況下，將```選取的物品```與```未選取的物品```交換，即```選取的物品```設定成```未選取的物品```，```未選取的物品```設定成```選取的物品```
+3. 背包清空，重新隨機選擇物品
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L41-L77
 
 ### 計算重量
