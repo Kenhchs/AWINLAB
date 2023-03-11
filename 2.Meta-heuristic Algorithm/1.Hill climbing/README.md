@@ -9,6 +9,7 @@
   - [初始變數設定](#初始變數設定)
   - [畫圖](#畫圖)
 - [成果](#成果)
+- [參考資料](#參考資料)
 ## 程式流程
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
 
@@ -36,3 +37,6 @@ https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb
 
 ## 成果
 <img src="https://github.com/Kenhchs/AWINLAB/blob/main/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/Hill%20climbing.png"/>
+
+## 參考資料
+[Knapsack problem using the hill climbing algorithm](https://ai.stackexchange.com/questions/3032/how-do-i-solve-the-knapsack-problem-using-the-hill-climbing-algorithm)
