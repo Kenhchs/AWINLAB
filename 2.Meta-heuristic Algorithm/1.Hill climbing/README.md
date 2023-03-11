@@ -33,11 +33,12 @@ loop do
 
 ```mermaid
 graph TD;
-  A(開始) -->B(初始解)
-  B --> C(尋找neighbor)
-  C --> D(判斷是否疊代500次)
-  D -->|是| E(結束)
-  D -->|否| C
+  A(開始) -->B(讀檔)
+  B --> C(初始解)
+  C --> D(尋找neighbor)
+  D --> E(判斷是否疊代500次)
+  E -->|是| F(結束)
+  E -->|否| D
 ```
 
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
