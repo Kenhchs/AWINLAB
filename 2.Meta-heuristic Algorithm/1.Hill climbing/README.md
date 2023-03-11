@@ -31,6 +31,15 @@ loop do
 ## 程式流程
 因為要有500個 iteration，有可能遇到的情況是找不到更好的 neighbor，與虛擬碼不同的是此時會啟動隨機重新啟動爬山([Random Restart Hill Climbing](https://en.wikibooks.org/wiki/Artificial_Intelligence/Search/Iterative_Improvement/Hill_Climbing#Random-Restart_Hill-Climbing))而不是回傳目前的點
 
+```mermaid
+graph TD;
+  A(開始) -->B(初始解)
+  B --> C(尋找neighbor)
+  C --> D(判斷是否疊代500次)
+  D -->|是| E(結束)
+  D -->|否| C
+```
+
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L100-L107
 
 ## 函式介紹
