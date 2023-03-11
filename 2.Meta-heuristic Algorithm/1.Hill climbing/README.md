@@ -52,6 +52,7 @@ https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L89-L98
 
 ### 畫圖
+```matplotlib```畫出收斂圖，```x_axis```和```iteration_score```分別為```x軸```及```y軸```
 https://github.com/Kenhchs/AWINLAB/blob/de0b3d36a59725ae98d623e0c1eac042c4cd11eb/2.Meta-heuristic%20Algorithm/1.Hill%20climbing/hill_climbing.py#L110-L113
 
 ## 成果
