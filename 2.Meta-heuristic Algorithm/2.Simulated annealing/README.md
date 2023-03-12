@@ -38,11 +38,13 @@ graph TD;
   E --> |candidate 較大| F(Accept)
   E --> |candidate 較小| G("評估機率函數 exp(-Δt/T)")
   G --> |"exp(-Δt/T) 機率"| F
-  G --> |"1 - exp(-Δt/T) 機率"| H(判斷是否疊代500次)
+  G --> |"1 - exp(-Δt/T) 機率"| H(降低溫度 T)
   F --> H
-  H --> |是| I(結束)
-  H --> |否| D
+  H --> I(判斷是否疊代500次)
+  I --> |是| J(結束)
+  I --> |否| D
 ```
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L74-L86
 
 ## 函式介紹
 
