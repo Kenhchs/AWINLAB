@@ -35,13 +35,15 @@ graph TD;
   B --> C(初始解)
   C --> D(尋找neighbor)
   D --> E(比較 current solution 和 candidate solution 之 profit 大小)
-  E --> |test| F(Accept)
-  
+  E --> |candidate 較大| F(Accept)
+  E --> |candidate 較小| G("評估機率函數 exp(-Δt/T)")
+  G --> |"exp(-Δt/T) 機率"| F
+  G --> |"1 - exp(-Δt/T) 機率"| H(判斷是否疊代500次)
+  F --> H
+  H --> |是| I(結束)
+  H --> |否| D
 ```
 
-D --> E(判斷是否疊代500次)
-  E -->|是| F(結束)
-  E -->|否| D
 ## 函式介紹
 
 ## 成果
