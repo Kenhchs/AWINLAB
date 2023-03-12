@@ -7,8 +7,8 @@
   - [計算價值](#計算價值)
   - [尋找鄰近點](#尋找鄰近點)
   - [計算重量](#計算重量)
-  - [初始變數設定](#初始變數設定)
-  - [畫圖](#畫圖)
+- [初始變數設定](#初始變數設定)
+- [畫圖](#畫圖)
 - [成果](#成果)
 - [參考資料](#參考資料)
 
@@ -47,7 +47,21 @@ graph TD;
 https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L74-L86
 
 ## 函式介紹
+### 讀檔
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L5-L18
+### 初始解
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L20-L32
+### 計算價值
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L34-L40
+### 尋找鄰近點
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L50-L61
+### 計算重量
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L42-L48
+### 初始變數設定
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L63-L72
 
+## 畫圖
+https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L89-L92
 ## 成果
 <img src="https://github.com/Kenhchs/AWINLAB/blob/main/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/Simulated%20annealing.png">
 
