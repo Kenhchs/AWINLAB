@@ -60,6 +60,10 @@ https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a
 https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L34-L40
 
 ### 尋找鄰近點
+在找到合適```candidate```前，亂數產生出一個整數```i```，分成以下3種情況
+1. ```item i```為選取之物品，將```item i```設定為未選取
+2. ```item i```為未選取之物品，若放入將```item i```不會使背包超重，則設定為```item i```選取
+3. 重新亂數產生出一個整數```i```
 https://github.com/Kenhchs/AWINLAB/blob/fc36d855c90cf6f877089265eaa5c5396a3be82a/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/simulated_annealing.py#L50-L61
 
 ### 計算重量
