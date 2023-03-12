@@ -12,6 +12,7 @@
 - [成果](#成果)
 - [參考資料](#參考資料)
 
+## 虛擬碼
 ```c
 create a random initial permutation
 loop 500 times
