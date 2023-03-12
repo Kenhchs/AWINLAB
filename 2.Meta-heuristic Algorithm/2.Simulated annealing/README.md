@@ -33,7 +33,7 @@ return best solution found
 graph TD;
   A(開始) -->B(讀檔)
   B --> C(初始解)
-  C --> D(尋找neighbor)
+  C --> D(尋找 neighbor)
   D --> E(比較 current solution 和 candidate solution 之 profit 大小)
   E --> |candidate 較大| F(Accept)
   E --> |candidate 較小| G("評估機率函數 exp(-Δt/T)")
