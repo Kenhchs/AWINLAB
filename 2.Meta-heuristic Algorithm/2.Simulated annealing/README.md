@@ -2,7 +2,7 @@
 
 ```c
 create a random initial permutation
-loop many times
+loop 500 times
   create an adjacent candidate solution
   if candidate is better than curr solution then
     curr solution = candidate (accept)
