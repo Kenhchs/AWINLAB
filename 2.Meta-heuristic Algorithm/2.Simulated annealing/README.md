@@ -1,4 +1,4 @@
-##目錄
+## 目錄
 
 ```c
 create a random initial permutation
