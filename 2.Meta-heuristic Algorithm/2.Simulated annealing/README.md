@@ -28,5 +28,5 @@ return best solution found
 ```
 
 ## 參考資料
-[Simulated Annealing](http://people.math.sfu.ca/~kyeats/teaching/math343/22-343.pdf)
+[Simulated Annealing](http://people.math.sfu.ca/~kyeats/teaching/math343/22-343.pdf)<br>
 [Knapsack Problem Using Simulated Annealing](https://jamesmccaffrey.wordpress.com/2021/12/17/knapsack-problem-using-simulated-annealing-example/)
