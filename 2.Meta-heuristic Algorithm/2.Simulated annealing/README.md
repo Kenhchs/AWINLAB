@@ -29,7 +29,19 @@ return best solution found
 ```
 
 ## 程式流程
+```mermaid
+graph TD;
+  A(開始) -->B(讀檔)
+  B --> C(初始解)
+  C --> D(尋找neighbor)
+  D --> E(比較 current solution 和 candidate solution 之 profit 大小)
+  E --> |test| F(Accept)
+  
+```
 
+D --> E(判斷是否疊代500次)
+  E -->|是| F(結束)
+  E -->|否| D
 ## 函式介紹
 
 ## 成果
