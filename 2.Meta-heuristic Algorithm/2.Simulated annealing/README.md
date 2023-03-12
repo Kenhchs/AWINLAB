@@ -28,6 +28,9 @@ end-loop
 return best solution found
 ```
 
+## 成果
+<img src="https://github.com/Kenhchs/AWINLAB/blob/main/2.Meta-heuristic%20Algorithm/2.Simulated%20annealing/Simulated%20annealing.png">
+
 ## 參考資料
 [Simulated Annealing](http://people.math.sfu.ca/~kyeats/teaching/math343/22-343.pdf)<br>
 [Knapsack Problem Using Simulated Annealing](https://jamesmccaffrey.wordpress.com/2021/12/17/knapsack-problem-using-simulated-annealing-example/)
